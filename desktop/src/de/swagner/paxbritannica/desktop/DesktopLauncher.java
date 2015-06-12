@@ -1,15 +1,15 @@
 package de.swagner.paxbritannica.desktop;
 
-import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
-import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
+import com.badlogic.gdx.backends.jogamp.JoglApplication;
+import com.badlogic.gdx.backends.jogamp.JoglApplicationConfiguration;
 import de.swagner.paxbritannica.PaxBritannica;
 
 public class DesktopLauncher {
 	public static void main(String[] args) {
-		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		JoglApplicationConfiguration config = new JoglApplicationConfiguration();
 		config.width = 1024;
 		config.height = 550;
 		config.title = "Pax Britannica";
-		new LwjglApplication(new PaxBritannica(), config);
+		new JoglApplication(new PaxBritannica(), config);
 	}
 }
