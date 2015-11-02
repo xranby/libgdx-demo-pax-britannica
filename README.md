@@ -13,7 +13,7 @@ Pax Britannica is a one-button [RTS game by nofundsgames](http://paxbritannica.h
   * [Android](http://libgdx.badlogicgames.com/demos/paxbritannica/paxbritannica.apk)
 
 ### Running
-* [Setup your development environment](https://github.com/libgdx/libgdx/wiki)
+* [Setup your development environment](https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29)
 * Clone the repository or download and extract the ZIP file
 * Import the project into your preferred development environment, run, debug and package it!
   * [Eclipse](https://github.com/libgdx/libgdx/wiki/Gradle-and-Eclipse)
